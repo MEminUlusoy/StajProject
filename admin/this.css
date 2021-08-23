@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+
+    height: 130px;
+    background-color:black;
+}
+
+
+
+header .image1{
+    height: 80px;
+    width: 110;
+    top: 30px;
+    left: 20px;
+
+    position: relative;    
+
+}
+
+header .image2{
+
+    height: 40px;
+    width: 40px;
+    top: 40px;
+    left: 140px;
+    
+    position: absolute;
+
+
+
+
+}
+
+
+header .image3{
+
+    height: 25px;
+    width: 28px;
+    top: 43px;
+    left: 180px;
+    
+    
+    position: absolute;
+
+
+
+
+}
+
+header .image4{
+
+    height: 25px;
+    width: 28px;
+    top: 43px;
+    left: 220px;
+    
+    position: absolute;
+
+
+}
+
+
+header table{
+
+    height: 40px;
+    width: 180px;
+    top: 90px;
+    left: 85%;
+
+    
+    background-color:black;
+
+    position: absolute;
+}
+
+header a{
+    
+    color: darkred;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header td:hover{
+    background-color: white;
+    
+}
+
+header a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+/* ---------------------------ASIDE--------------------------*/
+
+.sideBar{
+
+    height: 600px;
+    width: 180px;
+    background-color: silver;
+    float: left;
+
+}
+
+.sideBar table{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+
+
+}
+.sideBar a{
+    color: darkred;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+.sideBar td:hover{
+    background-color: rgb(149, 197, 236);
+    
+}
+
+.sideBar a:hover{
+    color: black;
+}
+
+/* ---------------------------FAALİYET KARTI--------------------------*/
+
+
+
+.fk-main{
+
+    height: 600px;
+    width: 800px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 70px;
+    text-align: center;
+
+    
+}
+
+.fk-table{
+    height: 500px;
+    width: 900px;
+    
+    
+    
+}
+
+.ua-if{
+    margin-left: 340px;
+    margin-top: 70px;
+    float: left;
+    
+}
+
+
+
+
+
+/* ---------------------------EYLEM PLANI--------------------------*/
+

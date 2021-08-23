@@ -1,0 +1,521 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+
+    height: 130px;
+    background-color:black;
+}
+
+
+
+header .image1{
+    height: 80px;
+    width: 110;
+    top: 30px;
+    left: 20px;
+
+    position: relative;    
+
+}
+
+header .image2{
+
+    height: 40px;
+    width: 40px;
+    top: 40px;
+    left: 140px;
+    
+    position: absolute;
+
+
+
+
+}
+
+
+header .image3{
+
+    height: 25px;
+    width: 28px;
+    top: 43px;
+    left: 180px;
+    
+    
+    position: absolute;
+
+
+
+
+}
+
+header .image4{
+
+    height: 25px;
+    width: 28px;
+    top: 43px;
+    left: 220px;
+    
+    position: absolute;
+
+
+}
+
+
+header table{
+
+    height: 40px;
+    width: 180px;
+    top: 90px;
+    left: 85%;
+
+    
+    background-color:black;
+
+    position: absolute;
+}
+
+header a{
+    
+    color: darkred;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header td:hover{
+    background-color: white;
+    
+}
+
+header a:hover{
+    color: black;
+}
+
+
+
+
+/* ---------------------------MAIN--------------------------*/
+
+
+
+
+.anasayfa img{
+    
+    height: 700px;
+    width: 100%;
+    
+    margin-bottom: -5px;
+    
+    
+
+}
+
+
+.anasayfa pre{
+    
+    margin-right: -200px;
+    padding-right: 200px;
+    left: 0px;
+    position: absolute;
+    top: 300px;    
+    color: white;
+    font-weight:800;
+    font-size: 50pt;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+
+    
+
+}
+
+
+
+
+
+
+
+.haberler{
+
+    background-color:linen;
+    height: 1000px;
+    padding-top: -50px;
+
+   
+    
+}
+
+.haberler .blue{
+
+    padding-top: 70px;
+    font-size: 18px;
+    color: steelblue;
+    padding-left: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.haberler .black{
+
+    color: black;
+    padding-top: 20px;
+    font-size: 30px; 
+    font-weight:lighter ; 
+    padding-left: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+
+
+
+.haberler .img1{
+    width: 380px;
+    height: 280px;
+    padding-top: 90px;
+    padding-left: 40px;
+    float: left;
+    
+    
+}
+
+.haberler .img2{
+
+    width: 380px;
+    height: 280px;
+    padding-top: 90px;
+    padding-left: 40px;
+    float: left;
+}
+
+
+.haberler .img3{
+
+    width: 380px;
+    height: 280px;
+    padding-top: 90px;
+    padding-left: 40px;
+    float: left;
+}
+
+.haberler .img4{
+
+    width: 380px;
+    height: 280px;
+    padding-top: 90px;
+    padding-left: 40px;
+    float: left;
+}
+
+.haberler .img5{
+
+    width: 380px;
+    height: 280px;
+    padding-top: 90px;
+    padding-left: 40px;
+    float: left;
+}
+
+.haberler .img6{
+
+    width: 380px;
+    height: 280px;
+    padding-top: 90px;
+    padding-left: 40px;
+    float: left;
+}
+
+
+
+
+
+
+
+.duyurular{
+    height: 700px;
+    background-color:silver;
+}
+
+.duyurular .duyuru1{
+
+    padding-top:90px; 
+    padding-left:40px;
+    float: left;
+}
+
+
+.duyurular .duyuru2{
+
+    padding-top:90px; 
+    padding-left:80px;
+    float: left;
+}
+
+.duyurular .duyuru3{
+
+    padding-top:90px; 
+    padding-left:40px;
+    float: left;
+}
+
+.duyurular .duyuru4{
+
+    padding-top:90px; 
+    padding-left:80px;    
+    float: left;
+}
+
+.duyurular .blueBütünDuyurular{
+
+    padding-top: 70px;
+    font-size: 18px;
+    color: steelblue;
+    padding-left: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.duyurular .blackDuyurular{
+
+    color: black;
+    padding-top: 20px;
+    font-size: 30px; 
+    font-weight:lighter ; 
+    padding-left: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+
+
+.projeler{
+
+    height: 700px;
+    background-color: white;
+}
+
+
+.projeler .havaalanı{
+
+    
+    position: relative;
+    height: 700;
+    width: 100%;
+}
+
+.projeler .arkaplan{
+
+    height: 800px;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+
+.projeler .önplan1{
+
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    float: left;
+    padding-top: 300px;
+    padding-left: 380px;
+
+
+}
+
+.projeler .önplan2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    float: left;
+    padding-top: 300px;
+    padding-left: 40px ;
+
+}
+
+.projeler .tablo{
+    position: absolute;
+    color: black;
+    height: 300px;
+    width: 480px;
+    margin-top: 290px;
+    margin-left: 750px;
+    font-size: 15px;
+    font-size: large;
+    font-weight: 400;
+    padding-bottom: -50px;
+    
+    
+    
+
+}
+
+.projeler  .blueProjeler {
+
+    font-size: 18px;
+    color: steelblue;
+    padding-top: 70px;
+    padding-left: 40px;       
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+
+}
+
+
+.projeler .blackProjeler{
+
+    color: black;    
+    padding-top: 120px;
+    padding-left: 40px;   
+    font-size: 30px; 
+    font-weight:lighter ;     
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+
+}
+
+
+
+
+/* ---------------------------Üye Giriş--------------------------*/
+
+.uyeGirisMain{
+    height: 600px;
+    width: 100%;
+    background-color:lightsteelblue;
+    position: absolute;
+    
+}
+
+
+.uyeGirisMenu{
+    height: 600px;
+    width: 35%;
+    background-color:oldlace;
+    margin-left: 30%;
+    text-align: center;
+
+}
+
+
+
+
+.uyeGirisMenu h1{
+
+    color: darkred;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+    
+    
+
+}
+
+
+.uyeGirisMenu p{
+
+    color: black;
+    margin-left: 135px;
+    text-align: left;
+    
+    
+    
+
+}
+
+
+
+.uyeGirisMenu input{
+
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    
+    background-color: white;
+    
+
+    
+
+}
+
+/* ---------------------------Üye Ol--------------------------*/
+
+
+
+
+.uyeOlArkaPlan{
+    height: 600px;
+    width: 100%;
+    background-color:lightsteelblue;
+    position: absolute;
+    
+}
+
+
+.uyeOlMenu{
+    height: 600px;
+    width: 35%;
+    background-color:oldlace;
+    margin-left: 30%;
+    text-align: center;
+
+}
+
+
+
+
+.uyeOlMenu h1{
+
+    color: darkred;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+    
+    
+
+}
+
+
+.uyeOlMenu p{
+
+    color: black;
+    margin-left: 135px;
+    text-align: left;
+    
+    
+    
+
+}
+
+
+
+.uyeOlMenu input{
+
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    
+    background-color: white;
+    
+
+    
+
+}
